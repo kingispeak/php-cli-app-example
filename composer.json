@@ -1,0 +1,17 @@
+{
+  "name": "kingispeak/php-cli-app-example",
+  "autoload": {
+    "psr-4": {
+      "PhpCliAppExample\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Sin-Fong Lyu",
+      "email": "kingispeak@gmail.com"
+    }
+  ],
+  "require": {
+    "symfony/console": "^6.2"
+  }
+}

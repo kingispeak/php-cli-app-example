@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+
+<?php
+
+use PhpCliAppExample\ExampleCLI as PhpCliAppExampleExampleCLI;
+
+require __DIR__.'/vendor/autoload.php';
+
+$app = new PhpCliAppExampleExampleCLI(new Symfony\Component\Console\Application());
+$app->run();
